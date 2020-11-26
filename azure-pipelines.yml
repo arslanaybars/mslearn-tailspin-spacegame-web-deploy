@@ -25,6 +25,8 @@ variables:
 #     - release
 #   always: false 
 
+# stages -> jobs -tasks
+
 stages:
 - stage: 'Build'
   displayName: 'Build the web application'
